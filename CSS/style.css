@@ -1,0 +1,125 @@
+
+/* background  */
+html {
+    max-width: 1260px;
+    max-height: 940px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.container{
+    display: flex;
+}
+.bg{
+    position: absolute;
+    width: 1260px;
+    height: 880px;
+    background-color: #edf2c5;
+}
+/* title */
+.Vegetable{
+    position: absolute;
+    width: 271px;
+    height: 62px;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+    margin: 36px 829px 782px 160px;
+  }
+  /* button */
+  .btn_facebook {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin: 60px 335px 795px 900px;
+  }
+  .btn_instagram {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin: 60px 300px 795px 935px;
+  }
+  .line_login {
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+    margin: 60px 289px 795px 970px;
+  }
+  .btn_LOGIN_box {
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    border: solid 1px #778a50;
+    margin: 60px 219px 795px 981px;
+  }
+  .LOGIN {
+    position: absolute;
+    width: 46px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+  }
+  .btn_JOIN_box {
+    position: absolute;
+    width: 49px;
+    height: 25px;
+    border: solid 1px #778a50;
+    margin: 60px 160px 795px 1051px;
+  }
+  .JOIN {
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+  }
+/* nav */
+  .nav_box {
+    position: absolute;
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin: 103px 160px 733px 160px;
+  }
+  .nav_list{
+    display: flex;
+  }
+  .nav_list_items{
+    list-style:none
+  }
+  .Home {
+    width: 51px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+  }
