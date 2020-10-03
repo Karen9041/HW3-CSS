@@ -99,7 +99,7 @@ html {
     border-radius: 3px;
     background-color: #778a50;
     margin-top: 103px ;
-    margin-left: 170px ;
+    margin-left: 158px ;
   }
   .nav_list{
     margin: 0;
@@ -109,7 +109,7 @@ html {
     position: absolute;
     list-style:none;
     margin-top: 10;
-    margin-bottom: 11;
+    margin-bottom: 10;
   }
   .Home {
     width: 51px;
@@ -139,7 +139,7 @@ html {
     color: #edf2c5;
     margin-left:141px;
   }
-  .Vegetables {
+  .Vegetables1 {
     width: 98px;
     height: 23px;
     font-family: Arial;
@@ -188,4 +188,27 @@ html {
     object-fit: contain;
     margin-top: 167PX ;
     margin-left: 155px ;
+  }
+  .body_box_vegetables {
+    position: absolute;
+    width: 444px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin-top: 645PX ;
+    margin-left: 160px ;
+  }
+  .Vegetables2 {
+    width: 98px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin-left: 30px;
   }
