@@ -25,7 +25,7 @@ html {
     text-align: left;
     color: #778a50;
     margin-top: 40px ;
-    margin-left: 160px ;
+    margin-left: 170px ;
   }
   /* button */
   .btn_facebook {
@@ -69,6 +69,7 @@ html {
     letter-spacing: normal;
     text-align: left;
     color: #778a50;
+    margin:auto ;
   }
   .btn_JOIN_box {
     position: absolute;
@@ -90,6 +91,7 @@ html {
     letter-spacing: normal;
     text-align: left;
     color: #778a50;
+    margin:auto ;
   }
 /* nav */
   .nav_box {
@@ -108,8 +110,8 @@ html {
   .nav_list_items{
     position: absolute;
     list-style:none;
-    margin-top: 10;
-    margin-bottom: 10;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .Home {
     width: 51px;
@@ -124,6 +126,7 @@ html {
     text-align: left;
     color: #edf2c5;
     margin-left: 30px;
+    margin-top: 5PX ;
   }
   .About-Us {
     width: 80px;
@@ -138,6 +141,7 @@ html {
     text-align: left;
     color: #edf2c5;
     margin-left:141px;
+    margin-top: 5PX ;
   }
   .Vegetables1 {
     width: 98px;
@@ -152,6 +156,7 @@ html {
     text-align: left;
     color: #edf2c5;
     margin-left:281px;
+    margin-top: 5PX ;
   }
   .Online {
     width: 56px;
@@ -166,8 +171,9 @@ html {
     text-align: left;
     color: #edf2c5;
     margin-left:439px;
+    margin-top: 5PX ;
   }
-  .Contact {
+  .Contact1 {
     width: 69px;
     height: 23px;
     font-family: Arial;
@@ -180,6 +186,7 @@ html {
     text-align: left;
     color: #edf2c5;
     margin-left:555px;
+    margin-top: 5PX ;
   }
   .img_main_pumpkin {
     position: absolute;
@@ -187,7 +194,7 @@ html {
     height: 448px;
     object-fit: contain;
     margin-top: 167PX ;
-    margin-left: 155px ;
+    margin-left: 160px ;
   }
   .body_box_vegetables {
     position: absolute;
@@ -211,4 +218,117 @@ html {
     text-align: left;
     color: #edf2c5;
     margin-left: 30px;
+    margin-top: 5PX ;
+  }
+  .img_vegetables_pepper {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin-left: 160px;
+    margin-top: 705PX ;
+  }
+  .img_vegetables_carrot {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin-left: 312px;
+    margin-top: 705PX ;
+  }
+  .img_vegetables_corn {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin-left: 464px;
+    margin-top: 705PX ;
+  }
+  .body_box_contact {
+    position: absolute;
+    width: 444px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin-top: 645PX ;
+    margin-left: 656px ;
+  }
+  .Contact2{
+    width: 69px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin-left: 30px;
+    margin-top: 5PX ;
+  }
+  .body_box_contact_text {
+    position: absolute;
+    width: 444px;
+    height: 140px;
+    background-color: #f7fbda;
+    margin-top: 705PX ;
+    margin-left: 656px ;
+  }
+  .text1{
+    width: 414px;
+    height: 44px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7d7d7d;
+    margin-left: 15px;
+    margin-top: 15PX ;
+  }
+  .line_contact_text {
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+    margin-left: 15px;
+  }
+  .email{
+    width: 197px;
+    height: 35px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7d7d7d;
+    margin-left: 15px;
+  }  
+  .box_footer {
+    position: absolute;
+    width: 1260px;
+    height: 60px;
+    background-color: #778a50;
+    margin-top: 880px;
+  }
+  .Copyrights{
+    width: 301px;
+    height: 14px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin-left: 480px;
   }
