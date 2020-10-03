@@ -1,19 +1,14 @@
 
 /* background  */
 html {
-    max-width: 1260px;
-    max-height: 940px;
+    width: 1260px;
+    height: 940px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #edf2c5;
   }
 .container{
     display: flex;
-}
-.bg{
-    position: absolute;
-    width: 1260px;
-    height: 880px;
-    background-color: #edf2c5;
 }
 /* title */
 .Vegetable{
@@ -29,7 +24,8 @@ html {
     letter-spacing: normal;
     text-align: left;
     color: #778a50;
-    margin: 36px 829px 782px 160px;
+    margin-top: 40px ;
+    margin-left: 160px ;
   }
   /* button */
   .btn_facebook {
@@ -57,6 +53,7 @@ html {
     position: absolute;
     width: 60px;
     height: 25px;
+    border-radius: 3px;
     border: solid 1px #778a50;
     margin: 60px 219px 795px 981px;
   }
@@ -77,6 +74,7 @@ html {
     position: absolute;
     width: 49px;
     height: 25px;
+    border-radius: 3px;
     border: solid 1px #778a50;
     margin: 60px 160px 795px 1051px;
   }
@@ -100,13 +98,18 @@ html {
     height: 44px;
     border-radius: 3px;
     background-color: #778a50;
-    margin: 103px 160px 733px 160px;
+    margin-top: 103px ;
+    margin-left: 170px ;
   }
   .nav_list{
-    display: flex;
+    margin: 0;
+    padding: 0;
   }
   .nav_list_items{
-    list-style:none
+    position: absolute;
+    list-style:none;
+    margin-top: 10;
+    margin-bottom: 11;
   }
   .Home {
     width: 51px;
@@ -120,5 +123,69 @@ html {
     letter-spacing: normal;
     text-align: left;
     color: #edf2c5;
-    margin-bottom: 11;
+    margin-left: 30px;
+  }
+  .About-Us {
+    width: 80px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin-left:141px;
+  }
+  .Vegetables {
+    width: 98px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin-left:281px;
+  }
+  .Online {
+    width: 56px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin-left:439px;
+  }
+  .Contact {
+    width: 69px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    margin-left:555px;
+  }
+  .img_main_pumpkin {
+    position: absolute;
+    width: 940px;
+    height: 448px;
+    object-fit: contain;
+    margin-top: 167PX ;
+    margin-left: 155px ;
   }
